@@ -43,7 +43,6 @@ class _ChatbotFeatureState extends State<ChatbotFeature> {
       //         ),
       //       ),
       //       SizedBox(width: 8),
-
       //       //send button
       //       CircleAvatar(
       //         radius: 24,
@@ -80,6 +79,7 @@ class _ChatbotFeatureState extends State<ChatbotFeature> {
               ),
             ),
 
+            //customized bottom bar with reversed list
             Padding(
               padding: const EdgeInsets.only(bottom: 8.0,left: 8,right: 8),
               child: Row(
